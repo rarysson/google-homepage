@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+}
+
+h5 {
+    padding: 10px 0 20px 0;
+    color: #70757a;
+}
+
+.left {
+    margin: 0 0 0 100px;
+}
+
+.green {
+    color: #006646;
+}
+
+.blue {
+    color: #1a0dab;
+}
+
+/*Top of the page*/
+.up img {
+    width: 120px;
+    height: 80px;
+}
+
+.up input {
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 600px;
+    height: 30px;
+    padding: 0 25px;
+    margin: 0 0 0 25px;
+    position: absolute;
+    top: 25px;
+}
+
+.down li {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+    font-size: 12px;
+}
+
+/*Main*/
+.result .videos {
+    display: inline-block;
+}
+
+.videos ul {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px 10px 5px 5px;
+    width: 200px;
+    height: 250px;
+    margin: 5px 10px 5px 0;
+}
+
+.videos img {
+    width: 200px;
+}
+
+.videos li {
+    display: block;
+}
+
+.videos .item {
+    padding: 5px 10px;
+}
+
+.videos .bottom {
+    padding-top: 60px;
+    color: rgb(150, 140, 140);
+}
+
+main ul {
+    width: 800px;
+    margin: 20px 10px;
+    display: inline-block;
+}
+
+main li {
+    display: block;;
+}
+
+li .title {
+    font-size: 22px;
+}
+
+li .site {
+    font-size: 18px;
+}
+
+li .abstract {
+    font-size: 14px;
+    color: #545454;
+}
+
+/*Bottom*/
+.related p {
+    font-size: 22px;
+    margin: 20px 10px 5px 10px;
+}
+
+.related ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.related li {
+    font-weight: bold;
+}
+
+.more {
+    margin: 0 0 0 200px;
+    width: 300px;
+}
+
+.more img {
+    width: 300px;
+}
+
+.more li {
+    display: inline;
+    margin: 0 7px 0 0;
+    color: #6685f7;
+}
+
+.more #first {
+    color: black;
+    margin: 0 7px 0 30px;
+}
+
+.more #last {
+    margin: 0 0 0 30px;
+}
+
+/*Footer*/
+footer {
+    border-top: 1px solid black;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+footer li {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #5f6368;
+}
