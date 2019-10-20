@@ -6,3 +6,6 @@ This project is aimed to show my skills in HTML + CSS, like:
 * Structuring a page in HTML.
 * Creating semantic HTML.
 * Defining the page layout through CSS.
+
+
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
