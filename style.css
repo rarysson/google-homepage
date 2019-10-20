@@ -42,11 +42,19 @@ footer h5 {
     margin: 10px;
 }
 
-#right {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 10px;
+button {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.right {
+    float: right;
+    margin: 3px 10px;
 }
 
 #search {
